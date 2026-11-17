@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --color-komdigi-navy: #0A244D;
+  --color-komdigi-navy-deep: #061733;
+  --color-komdigi-blue: #004B93;
+  --color-komdigi-cerulean: #007CC3;
+  --color-komdigi-surface: #F4F7FB;
+}
+
+@layer base {
+  html {
+    font-family: "Poppins", ui-sans-serif, system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Poppins", ui-sans-serif, system-ui, sans-serif;
+    background-color: #F4F7FB;
+    color: #0F172A;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

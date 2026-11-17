@@ -1,0 +1,6 @@
+{
+  "name": "Portal Kompetensi Pegawai Komdigi",
+  "description": "Portal Pengembangan Kompetensi dan Rencana Pengembangan Individu (IDP) Pegawai Kementerian Komunikasi dan Digital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
